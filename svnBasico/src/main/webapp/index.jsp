@@ -37,7 +37,7 @@
  
             $(document).ready(function() {
                 $.ajax({
-                    url: './src/view/userTemplate.html',
+                    url: './src/view/userTemplates.html',
                     method: 'GET',
                     async: false,
                     contentType: 'text/html',
